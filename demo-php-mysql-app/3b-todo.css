@@ -1,0 +1,26 @@
+html, body { font-family: arial, sans-serif; }
+.notify {
+  background: #ecefff;
+  border: 1px solid #bfc4ff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#tasks { max-width: 500px; }
+#tasks form {
+  display: grid;
+  grid-template-columns: 10% 60% 20% 10%;
+  padding: 10px;
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+#tasks input, #tasks select {
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+}
+#tasks input[type=button], #tasks input[type=submit] { color: #fff; }
+#tasks input[type=button] { background: #a72020; }
+#tasks input[type=submit] { background: #577ed8; }
+#taskadd { grid-column: span 2; }
